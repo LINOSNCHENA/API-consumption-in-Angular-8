@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { HttpClientModule } from '@angular/common/http';  // Add this
+import { HttpClientModule } from '@angular/common/http';  
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';  // Add this
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, FormsModule, HttpModule, HttpClientModule
+    AppRoutingModule, FormsModule, 
+    HttpModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

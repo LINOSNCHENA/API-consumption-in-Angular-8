@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');*/
 
-h1 {
-    margin-top: 2em;
-}
+h1 {    margin-top: 2em;    }
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";

@@ -10,12 +10,13 @@ import{ZhttpService}  from '../zhttp.service';
 export class ListComponent implements OnInit {
   constructor(private _http: ZhttpService) { }
   brews: Object;
+
   ngOnInit() {
     this._http.myMethod();
     this._http.getBeer().subscribe(data => {
-      this.brews = data
+      this.brews = data;
       console.log(this.brews);
-    }
-  );
+    });
   }
+
 }

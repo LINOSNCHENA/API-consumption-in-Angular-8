@@ -5,7 +5,9 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ZhttpService {
+
   constructor(private http: HttpClient) { }
-  myMethod() {  return console.log('Hey NO PEMBA Zhttp!, what is up!');  }
+  myMethod() {  return console.log('Waiting for second API resource here!');  }
   getBeer() {  return this.http.get('https://api.openbrewerydb.org/breweries')  }
+  
 }
