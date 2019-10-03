@@ -1,12 +1,13 @@
-<h2>Welcome {{marvin}}!</h2>
+<h2>WELCOME {{marvin}}!</h2>
 
 <div th:switch="${pivot}" class="container my-5">  
 <table class="table table-striped">
         <thead>
-            <th>Id</th> <th>Name</th> <th>Street</th>
+            <th>ID</th> <th>Name</th> <th>Street</th>
             <th>Postal Office</th>
-            <th>City</th><th>State </th> <th>Country</th>
-<th colspan="2">Actions</th>
+            <th>City</th><th>State </th>
+             
+<th colspan="2">Country</th>
         </thead>
         <tbody>
             <tr *ngFor="let pivot of pivot">
