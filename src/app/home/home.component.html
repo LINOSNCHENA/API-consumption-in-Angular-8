@@ -1,15 +1,12 @@
-<h2>WELCOME {{marvin}}!</h2>
-
-<div th:switch="${pivot}" class="container my-5">  
+<h2> RED CUSTOMERS : {{marvin}}!</h2>
+<div th:switch="${pivot}" class="container my-5"> 
+  
+  
 <table class="table table-striped">
-        <thead>
-            <th>ID</th> <th>Name</th> <th>Street</th>
-            <th>Postal Office</th>
-            <th>City</th><th>State </th>
-             
-<th colspan="2">Country</th>
-        </thead>
-        <tbody>
+   <thead><th>ID</th> <th>Name</th> 
+      <th>Street</th><th>PostCode</th>
+      <th>City</th><th>State </th><th colspan="2">Country</th>
+  </thead><tbody>
             <tr *ngFor="let pivot of pivot">
                 <td>{{pivot.id}}</td>
                 <td>{{pivot.name}}</td>
@@ -19,23 +16,8 @@
                 <td>{{pivot.state}}</td>
                 <td>{{pivot.country}}</td>
             </tr>
-        </tbody>
-    </table>
+  </tbody></table>
 
-<h1>Details of our Possibiities</h1>
-<ul *ngIf="pivot">
-  <li *ngFor="let pivot of pivot">
-    <p class="name">{{ pivot.name }}</p>
-    <p class="name">{{ pivot.id }}</p>
-    <p class="name">{{ pivot.state }}</p>
-    <p class="name">{{ pivot.city }}</p>
-    <p class="country">{{ pivot.country }}</p>
-    <a class="site" href="{{pivot.website_url}}">site</a>
-  </li>
-</ul>
+<h1>Breweries listed as A-Class</h1>
 
-<h1>Breweries listed above</h1>
-<div class="play-container">
-        <p> <input type="value" [(ngModel)]="marvin"><br>
-            <input type="value" id="marvintime" value= {{recordingTime}}/></p>
-    </div>
+<div class="play-container"> <h4> PRAHA-TIME IS : {{prahaTime}} </h4></div>

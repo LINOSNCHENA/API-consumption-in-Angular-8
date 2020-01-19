@@ -1,0 +1,26 @@
+.container {
+    background-color:gold;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+ .container > div {
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+  }
+  .container > nav {
+    background-color:chartreuse;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  .container > logo {
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+  }
