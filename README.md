@@ -13,7 +13,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## INTERFACE UX
 Here are screens shots from the application accuracy plots and UI interfaces
 
-![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Assistive-Technologies-for-a-SMARTHOUSE/blob/master/Plot_ACC.png)
+![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page1)
+![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page2)
+![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page3)
+![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page4)
+![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page4)
+![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page4)
+
 ![ Muntu App Loss     # 2 ](https://github.com/LINOSNCHENA/Assistive-Technologies-for-a-SMARTHOUSE/blob/master/Plot_Loss.png)
 ![ Muntu App MSE      # 3 ](https://github.com/LINOSNCHENA/Assistive-Technologies-for-a-SMARTHOUSE/blob/master/Plot_MSE.png)
 ![ Muntu App UX       # 4 ](https://github.com/LINOSNCHENA/Assistive-Technologies-for-a-SMARTHOUSE/blob/master/snapshots/cOutputLabel/front.png)
