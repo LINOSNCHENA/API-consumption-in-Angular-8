@@ -16,12 +16,3 @@ Here are screens shots from the application accuracy plots and UI interfaces
 ![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page1.png)
 ![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page2.png)
 ![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page3.png)
-![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page4.png)
-![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page4.png)
-![ Muntu App Accuracy # 1 ](https://github.com/LINOSNCHENA/Search-for-product-brewers/blob/master/src/assets/page4.png)
-
-
-![ Muntu App Loss     # 2 ](https://github.com/LINOSNCHENA/Assistive-Technologies-for-a-SMARTHOUSE/blob/master/Plot_Loss.png)
-![ Muntu App MSE      # 3 ](https://github.com/LINOSNCHENA/Assistive-Technologies-for-a-SMARTHOUSE/blob/master/Plot_MSE.png)
-![ Muntu App UX       # 4 ](https://github.com/LINOSNCHENA/Assistive-Technologies-for-a-SMARTHOUSE/blob/master/snapshots/cOutputLabel/front.png)
-![ Muntu App SMS      # 5 ](https://github.com/LINOSNCHENA/Assistive-Technologies-for-a-SMARTHOUSE/blob/master/snapshots/cOutputLabel/end.png)
