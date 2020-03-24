@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "banked"
+    }
+  },
+  "defaultProject": "banked",
+  "cli": {
+    "analytics": false
+  }
 }
