@@ -1,6 +1,6 @@
 # CANADIAN EXPRESS
 
-The purpose is to consume RESTFul application in diferenc websites
+The purpose of this app demo is to consume RESTFul application form various websites as they mock our database restfull service
 
 ## Interface UX
 
@@ -12,5 +12,7 @@ Here are screens shots from the application UI interfaces
 
 ## Development server
 
+Delete package-lock.json file for updates
+Run `npm install` for installation 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
