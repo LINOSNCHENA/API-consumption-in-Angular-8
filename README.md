@@ -12,7 +12,7 @@ Here are screens shots from the application UI interfaces
 
 ## Development server
 
-Delete package-lock.json file for updates
-Run `npm install` for installation 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Delete package-lock.json file for updates
+2. Run `npm install` for installation 
+3. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
