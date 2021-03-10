@@ -1,0 +1,21 @@
+<h2> SELLERS : {{nicosia}}!</h2>
+<div th:switch="${pivot}" class="container my-5"> 
+
+<table class="table table-striped">
+  <thead><th>ID</th><th>Name</th> 
+     <th>Street</th><th>State </th>
+    <th colspan="1">Country</th><th>Links</th>
+ </thead><tbody>
+           <tr *ngFor="let brew of brews">
+               <td>{{brew.id}}</td>
+               <td>{{brew.name}}</td>
+               <td>{{brew.state}}</td>
+               <td>{{brew.city}}</td>
+               <td>{{brew.country}}</td>
+  <a class="site" href="{{brew.website_url}}">site</a>
+           </tr>
+ </tbody></table>
+
+ <h1>Breweries listed as A-Class</h1>
+
+ <div class="play-container"><h4> NICOSIA-TIME IS : {{nicosiaTime}} </h4> </div>

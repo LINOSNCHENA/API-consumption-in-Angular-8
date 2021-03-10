@@ -1,0 +1,23 @@
+<h2> PRODUCTS : {{marvin}}!</h2>
+<div th:switch="${pivot}" class="container my-5"> 
+  
+  
+<table class="table table-striped">
+   <thead><th>ID</th> <th>Name</th> 
+      <th>Street</th><th>PostCode</th>
+      <th>City</th><th>State </th><th colspan="2">Country</th>
+  </thead><tbody>
+            <tr *ngFor="let pivot of pivot">
+                <td>{{pivot.id}}</td>
+                <td>{{pivot.name}}</td>
+                <td>{{pivot.street}}</td>
+                <td>{{pivot.postal_code}}</td>
+                <td>{{pivot.city}}</td>
+                <td>{{pivot.state}}</td>
+                <td>{{pivot.country}}</td>
+            </tr>
+  </tbody></table>
+
+<h1>Breweries listed as A-Class</h1>
+
+<div class="play-container"> <h4> PRAHA-TIME IS : {{prahaTime}} </h4></div>
