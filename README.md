@@ -6,7 +6,15 @@ App to consume RESTFul application form various websites as they mock backend re
 
 ```
 npm install
-npm install --save-dev @angular/http
+npm install --global typescript --save-dev 
+npm install --save-dev typescript
+npm install -g typescript
+
+npm install --save-dev @angular-devkit/build-angular
+npm install --save-dev @angular/http 
+
+npm i @angular/compiler-cli
+npm i typescript@3.8
 npm start
 
 ```
