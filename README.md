@@ -19,6 +19,12 @@ npm start
 
 ```
 
+## Links for the development and deployment of two seperate versions
+
+Open [http://localhost:4400/](http://localhost:4400/) in browser to see the application.
+Open [http://localhost:4401/](http://localhost:4401/) in browser to see the application.
+
+
 ## User-Interface
 
 Here are screens shots(5) from the application UI interfaces
@@ -30,7 +36,7 @@ Here are screens shots(5) from the application UI interfaces
 ![ Muntu #5 ](https://github.com/LINOSNCHENA/Angular-Search-for-product-brewers/blob/master/UXview/page5.png)
 ![ Muntu #6 ](https://github.com/LINOSNCHENA/Angular-Search-for-product-brewers/blob/master/UXview/page6.png)
 
-## VERSION - Lecturer: # 24
+## VERSION - Lecturer: # 19
 
 03/10/2021
 
